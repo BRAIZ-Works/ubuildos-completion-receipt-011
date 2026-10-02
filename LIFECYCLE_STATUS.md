@@ -14,26 +14,31 @@ SHA-256: `6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9`
 - IQA repairs: zero
 - owner accepted: YES
 - frozen: YES
+- GitHub repository publication: complete
+- GitHub Pages deployment/readback: complete
+- desktop live visual readback: PASS
+- LinkedIn publication evidence: complete
+- terminal reconciliation: complete
 
 The frozen product subject remains unchanged.
 
 ## Public distribution projection
 
-Projection version: **v1.0.3**  
-Change class: **PATCH — visual-brand continuity + documentation/publication-surface repair**  
-Reason: bring the public repository documentation surface up to the Day-10 BRAIZ/UBuildOS campaign standard without modifying the frozen product subject.
+Projection version: **v1.0.4**  
+Change class: **PATCH — terminal-closeout documentation reconciliation**  
+Predecessor projection v1.0.3 repaired visual-brand continuity.  
+v1.0.4 records final publication evidence, lessons, handoff, and terminal lifecycle truth without modifying the frozen product subject.
 
-## Separate external-effect/readback states
+## Publication evidence
 
-The following are not established merely by this document:
-- exact-current GitHub commit publication;
-- exact-current GitHub Pages deployment;
-- desktop/tablet/mobile live observation;
-- LinkedIn publication and live URL readback;
-- final campaign closeout.
+Repository: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-011  
+Live build: https://braiz-works.github.io/ubuildos-completion-receipt-011/  
+LinkedIn post: https://lnkd.in/p/et2P9BM7
 
-Those states require their own execution and readback evidence.
+LinkedIn publication is supported by the owner-supplied live screenshot showing the Day-10 post copy and 6-page carousel live on the profile. The shortened LinkedIn URL was not independently HTTP-fetched by this execution environment.
 
-## Rule
+## Terminal state
 
-A status label never advances lifecycle by itself. Frozen-product identity and public-projection state remain separate.
+Status: `VERIFIED_TERMINAL_DONE / CLOSED`
+
+See `docs/TERMINAL_CLOSEOUT.md` and `docs/LESSONS_AND_HANDOFF.md`.
