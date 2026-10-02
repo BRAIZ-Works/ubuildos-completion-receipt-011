@@ -1,0 +1,2 @@
+# Limitations
+This is a bounded static demonstration using synthetic records. It has no authentication, persistence, external API, notification, scheduling, audit-log backend, legal/compliance engine, or production marketing integration. Approval labels are sample workflow states, not real approvals. It does not establish business outcomes or campaign performance.
