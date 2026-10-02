@@ -1,6 +1,6 @@
 {
   "schema": "DAY10_PUBLICATION_PROJECTION_MANIFEST_V1",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "population_definition": "all publication projection files except derived integrity indexes PUBLIC_MANIFEST.json and SHA256SUMS.txt",
   "population_count": 29,
   "frozen_subject_sha256": "6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9",
@@ -22,8 +22,8 @@
     },
     {
       "path": "LIFECYCLE_STATUS.md",
-      "bytes": 1205,
-      "sha256": "93b646e44616e767dac6c5a503b7ba29667472bf3e7e962d402d695827d8b282"
+      "bytes": 1231,
+      "sha256": "eaa0e3b29236e211e658d6db6c521ca9a2eee159f31110a7530aa69c18d6ed4d"
     },
     {
       "path": "LINKEDIN_POST.md",
@@ -38,7 +38,7 @@
     {
       "path": "README.md",
       "bytes": 3885,
-      "sha256": "51dda17a16518282309f4209723a99f47f4fe77c21698d6d509f2f7dda9acc4b"
+      "sha256": "41f174af924c2ffdf9bb066f9b4ecdfeb1d8af0bab6ac55035adabe2d13c61ef"
     },
     {
       "path": "RECOVERY_FROM_v1.0.0.md",
@@ -87,8 +87,8 @@
     },
     {
       "path": "docs/RELEASE_NOTES.md",
-      "bytes": 1120,
-      "sha256": "ab2d69126aaa3628f1d48e85a31b3d8cf933da4ba0a4c788969d5b6869df8eee"
+      "bytes": 1447,
+      "sha256": "4e96c63741fcf37fccdefd620916e6d6e08bb0cbe14058b681250aa3e17caa5e"
     },
     {
       "path": "docs/RIGHTS_AND_USE.md",
@@ -108,7 +108,7 @@
     {
       "path": "docs/VERIFICATION_SUMMARY.md",
       "bytes": 1486,
-      "sha256": "2d83147230cd92dbecc20d46115aa4eb5b7d093dbfe8182628f3efef5106310f"
+      "sha256": "bead0f818aaa8946e364ade44733aaaa6a67e6cb826cc5a6681b798dbb4a38bc"
     },
     {
       "path": "evidence/FROZEN_SUBJECT_IDENTITY.json",
