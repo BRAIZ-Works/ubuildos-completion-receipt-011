@@ -20,7 +20,7 @@ Independent review confirmed subject identity, archive/path safety, governed pop
 Owner accepted and froze the exact Fresh-IQA-PASS v1.0.1 subject.
 
 ## Public projection state
-This repository is a separate distribution projection. Documentation projection v1.0.2 improves public release documentation without changing the frozen subject.
+This repository is a separate distribution projection. Documentation projection v1.0.3 improves public release documentation without changing the frozen subject.
 
 Public-projection verification must be recomputed after any public-file change. It does not inherit Fresh IQA merely because the underlying frozen product passed.
 
