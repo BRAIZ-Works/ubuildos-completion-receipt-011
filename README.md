@@ -31,3 +31,5 @@ Live build: `https://braiz-works.github.io/ubuildos-completion-receipt-011/`
 These are the bound release targets. A repository URL or Pages URL is not treated as live evidence until publication/deployment readback is completed.
 
 See `START_HERE.md`, `LIFECYCLE_STATUS.md`, and `docs/` for methodology, limitations, privacy, security, accessibility, recovery, rights/use, release notes, and verification status.
+
+Deployment: GitHub Pages from main / root.
