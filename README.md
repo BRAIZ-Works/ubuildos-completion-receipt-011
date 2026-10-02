@@ -5,7 +5,7 @@
 **Frozen subject SHA-256:** `6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9`  
 **Fresh Independent IQA PASS:** YES — zero IQA repairs  
 **Owner accepted / frozen:** YES  
-**Public distribution projection:** v1.0.3 documentation repair
+**Public distribution projection:** v1.0.4 terminal-closeout projection
 
 Live build: https://braiz-works.github.io/ubuildos-completion-receipt-011/  
 Public repository: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-011
@@ -67,7 +67,9 @@ No build step or package manager is required.
 - [docs/RELEASE_NOTES.md](docs/RELEASE_NOTES.md) — version lineage.
 - [docs/VERIFICATION_SUMMARY.md](docs/VERIFICATION_SUMMARY.md) — exact verification status.
 - [LIFECYCLE_STATUS.md](LIFECYCLE_STATUS.md) — lifecycle truth.
-- [PUBLICATION_GATE.md](PUBLICATION_GATE.md) — publication/closeout boundary.
+- [PUBLICATION_GATE.md](PUBLICATION_GATE.md) — publication/closeout status.
+- [docs/TERMINAL_CLOSEOUT.md](docs/TERMINAL_CLOSEOUT.md) — final Day-10 closeout record.
+- [docs/LESSONS_AND_HANDOFF.md](docs/LESSONS_AND_HANDOFF.md) — carry-forward lessons for Day 11+.
 
 ## Release integrity
 
