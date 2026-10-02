@@ -20,9 +20,9 @@ Independent review confirmed subject identity, archive/path safety, governed pop
 Owner accepted and froze the exact Fresh-IQA-PASS v1.0.1 subject.
 
 ## Public projection state
-This repository is a separate distribution projection. Documentation projection v1.0.3 improves public release documentation without changing the frozen subject.
+This repository is a separate distribution projection. Public projection v1.0.4 records terminal closeout after the v1.0.3 branding repair without changing the frozen subject.
 
 Public-projection verification must be recomputed after any public-file change. It does not inherit Fresh IQA merely because the underlying frozen product passed.
 
 ## Remaining campaign boundary
-LinkedIn publication/readback and final terminal closeout require separate evidence and are not inferred from this repository.
+GitHub Pages and LinkedIn publication evidence were separately established and reconciled in `docs/TERMINAL_CLOSEOUT.md`. Day 10 is closed as `VERIFIED_TERMINAL_DONE / CLOSED`.
