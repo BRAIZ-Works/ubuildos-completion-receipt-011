@@ -17,7 +17,7 @@ The frozen product bytes were not modified by later documentation/branding publi
 
 ## Public projection
 
-- Projection version: `v1.0.3`
+- Projection version: `v1.0.4`
 - Repository: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-011
 - Live build: https://braiz-works.github.io/ubuildos-completion-receipt-011/
 - GitHub Pages final branding-repair deployment: run #30 — SUCCESS
@@ -41,6 +41,7 @@ The LinkedIn short URL was not independently HTTP-fetched by the execution envir
 2. v1.0.1 repaired both failure families and passed Fresh Independent IQA with zero IQA repairs.
 3. Public projection v1.0.2 repaired incomplete BRAIZ documentation.
 4. Public projection v1.0.3 repaired visual-brand continuity against the established campaign reference.
+5. Public projection v1.0.4 reconciled terminal publication evidence, lessons/handoff, lifecycle truth, and final integrity indexes.
 
 ## Terminal disposition
 
