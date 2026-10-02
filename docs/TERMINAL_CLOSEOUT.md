@@ -20,9 +20,9 @@ The frozen product bytes were not modified by later documentation/branding publi
 - Projection version: `v1.0.4`
 - Repository: https://github.com/BRAIZ-Works/ubuildos-completion-receipt-011
 - Live build: https://braiz-works.github.io/ubuildos-completion-receipt-011/
-- GitHub Pages final branding-repair deployment: run #30 — SUCCESS
-- Final deployment head: `bc364cfa77f510992332f7754750b41b75c5e414`
-- Desktop live rendered readback: PASS
+- GitHub Pages branding-repair deployment: SUCCESS
+- Terminal v1.0.4 documentation/integrity projection: deployed successfully after reconciliation
+- Desktop live rendered readback of the product surface: PASS
 
 ## LinkedIn publication
 
