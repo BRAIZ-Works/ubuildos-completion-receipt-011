@@ -1,15 +1,28 @@
-# Verification summary — v1.0.1
+# Verification Summary
 
-Producer verification passed on the exact subject before lock, including fail-closed integrity and campaign-copy controls plus adversarial mutation coverage.
+## Exact frozen product subject
+File: `UBUILDOS_DAY10_CONTENT_APPROVAL_QUEUE_v1.0.1.zip`  
+Bytes: `32,587`  
+SHA-256: `6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9`
 
-Fresh Independent IQA then independently reviewed the exact subject and returned PASS with zero repairs.
+Fresh-IQA handoff SHA-256:
+`0e7f28a46c7f883e937913c03960b5bdd1c9f6826d7c7ea2fd91c7e2f0369876`
 
-Exact frozen subject:
-`UBUILDOS_DAY10_CONTENT_APPROVAL_QUEUE_v1.0.1.zip`
+## Producer result
+Producer QA passed after repairing the two v1.0.0 Fresh-IQA failure families and rerunning affected/dependent/full regression, mutation controls, and two zero-new-material sweeps.
 
-SHA-256:
-`6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9`
+## Independent result
+Fresh Independent IQA returned **PASS** on exact v1.0.1 bytes with **zero repairs**.
 
-The frozen reviewed subject remains unchanged. This public-repository tree is a distribution projection that updates lifecycle-facing documentation after IQA/freeze; it does not rewrite the frozen subject identity.
+Independent review confirmed subject identity, archive/path safety, governed population, manifest/hash/checksum integrity, required workflow states, synthetic/no-external-runtime boundary, publication gate, LinkedIn standard conformance, and predecessor failure-family closure.
 
-Publication, deployment, live observation, LinkedIn publication, and terminal closeout require separate readback evidence.
+## Owner state
+Owner accepted and froze the exact Fresh-IQA-PASS v1.0.1 subject.
+
+## Public projection state
+This repository is a separate distribution projection. Documentation projection v1.0.2 improves public release documentation without changing the frozen subject.
+
+Public-projection verification must be recomputed after any public-file change. It does not inherit Fresh IQA merely because the underlying frozen product passed.
+
+## Remaining campaign boundary
+LinkedIn publication/readback and final terminal closeout require separate evidence and are not inferred from this repository.
