@@ -1,0 +1,2 @@
+# Methodology
+The demo models a small content-approval queue with deterministic client-side filtering. Each record carries content identity, channel, priority, approval state, owner, due timing, next action, rationale, and history. No scoring or automated approval is performed. The human-readable state is the product surface.
