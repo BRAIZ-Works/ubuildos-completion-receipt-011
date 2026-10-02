@@ -1,20 +1,39 @@
-# Day 10 lifecycle status
+# Day 10 Lifecycle Status
 
-Exact frozen subject: `UBUILDOS_DAY10_CONTENT_APPROVAL_QUEUE_v1.0.1.zip`  
-SHA-256: `6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9`  
-Bytes: `32,587`
+## Frozen product identity
 
-Proven/authorized before publication:
+Subject: `UBUILDOS_DAY10_CONTENT_APPROVAL_QUEUE_v1.0.1.zip`  
+Bytes: `32,587`  
+SHA-256: `6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9`
+
+## Proven lifecycle states
+
+- tested: complete
 - producer QA: PASS
-- Fresh Independent IQA: PASS, zero IQA repairs
-- owner acceptance: YES
-- freeze: YES
+- Fresh Independent IQA: PASS
+- IQA repairs: zero
+- owner accepted: YES
+- frozen: YES
 
-Not established merely by this file:
-- GitHub publication
-- GitHub Pages deployment
-- live multi-viewport observation
-- LinkedIn publication/readback
-- terminal campaign closeout
+The frozen product subject remains unchanged.
 
-Those states require separate execution and readback receipts.
+## Public distribution projection
+
+Projection version: **v1.0.2**  
+Change class: **PATCH — documentation/publication-surface repair**  
+Reason: bring the public repository documentation surface up to the Day-10 BRAIZ/UBuildOS campaign standard without modifying the frozen product subject.
+
+## Separate external-effect/readback states
+
+The following are not established merely by this document:
+- exact-current GitHub commit publication;
+- exact-current GitHub Pages deployment;
+- desktop/tablet/mobile live observation;
+- LinkedIn publication and live URL readback;
+- final campaign closeout.
+
+Those states require their own execution and readback evidence.
+
+## Rule
+
+A status label never advances lifecycle by itself. Frozen-product identity and public-projection state remain separate.
