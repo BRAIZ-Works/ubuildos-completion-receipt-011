@@ -1,5 +1,10 @@
-# Day 10 exact external-effect authority request
+# Recovery from failed v1.0.0
 
-Authorize only if you want the remaining live Day-10 release actions executed now:
+Failed subject SHA-256: `53f9a6005a10a53b2d7f35ac0297c2ba4da3ffc559f05b5fc29ca9d5a7d9d62c`
+Failed Fresh-IQA handoff SHA-256: `16d554699a6cc10a2825f3621ea473a66a9b436416533e8a69176f20cb04b314`
 
-> I authorize the exact Day-10 GitHub/publication external effects for the frozen v1.0.1 subject: create/update the bound public repository `BRAIZ-Works/ubuildos-completion-receipt-011` from the prepared public repository projection, commit/push it, enable or confirm GitHub Pages, deploy and read back the exact live commit/site across desktop/mobile/tablet, then perform the final LinkedIn gate and publish the exact qualified Day-10 LinkedIn post/carousel to the bound live/repository URLs and capture/read back the live LinkedIn URL. Use transactional preflight, idempotency checks, readback receipts, ambiguity controls, and rollback/compensation where applicable. Auto-continue through final audit, lessons/handoff, restore checkpoint, and Day-10 terminal closeout unless a new legitimate owner, platform, credentials, safety, or hard-material blocker appears.
+Fresh-IQA findings reproduced:
+1. LinkedIn post did not conform to the included mandatory v1.3.0 campaign structure.
+2. Producer validator false-passed when `PUBLIC_MANIFEST.json` and `SHA256SUMS.txt` were missing.
+
+Safe-Change successor v1.0.1 repairs both recurrence classes. Failed predecessor bytes remain preserved outside this successor.
