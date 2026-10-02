@@ -23,7 +23,7 @@ A Markdown carousel outline is not the same as a publishable LinkedIn document.
 **Day-11+ rule:** produce and render-QA the final carousel PDF before the publication gate. Include accessibility companion and exact post copy in the same release denominator.
 
 ### 5. Do not confuse frozen product identity with public-projection successors
-The Fresh-IQA-PASS v1.0.1 product remained immutable while documentation/branding projection patches advanced to v1.0.3.
+The Fresh-IQA-PASS v1.0.1 product remained immutable while documentation/branding projection patches advanced through v1.0.4.
 
 **Day-11+ rule:** keep product subject, public projection, and publication lifecycle identities separate and explicit.
 
