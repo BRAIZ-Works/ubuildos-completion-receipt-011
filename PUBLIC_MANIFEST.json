@@ -5,36 +5,160 @@
   "population_count": 31,
   "frozen_subject_sha256": "6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9",
   "files": [
-    {"path": ".nojekyll", "bytes": 0, "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"},
-    {"path": "CAROUSEL.md", "bytes": 841, "sha256": "8fe7a6dea1184a34ee64a22abb9c4454852cdad01095368bc9912e69134c03c1"},
-    {"path": "CAROUSEL_ACCESSIBILITY.md", "bytes": 729, "sha256": "3991d796c09ef2b94192b55cf0b0d625d2baed34182777432a1f2c71ccb5986d"},
-    {"path": "LIFECYCLE_STATUS.md", "bytes": 1550, "sha256": "530437216a9504e965d44ff54924d1874e15401ec29db52459748dcc8e7306a0"},
-    {"path": "LINKEDIN_POST.md", "bytes": 2588, "sha256": "e979ea89491375c283824af0656737405eb4ebc80f5c9e57e73a4a592fc29164"},
-    {"path": "PUBLICATION_GATE.md", "bytes": 922, "sha256": "90a5187a824b355c61004bfa3308301ddae1b3a1d00ca1c60382bf015976b9f8"},
-    {"path": "README.md", "bytes": 4082, "sha256": "0525f61f53f2b859812df81a168860dc64fa34d4958539382f495b9834c7ba08"},
-    {"path": "RECOVERY_FROM_v1.0.0.md", "bytes": 568, "sha256": "6da743028f94549f35558e03adbc78897bdf519240b9c4856f7912f0d5c932d3"},
-    {"path": "START_HERE.md", "bytes": 1466, "sha256": "d5451951ca2963e288d0906bcc04a274cc2b73c98bf469ab1d9dea8faea3d102"},
-    {"path": "app.js", "bytes": 4183, "sha256": "c5e943eb02c89cb71459ab5eb336a2514192f092901be268fe5b873c8b006504"},
-    {"path": "docs/ACCESSIBILITY.md", "bytes": 712, "sha256": "2bbec3b559818e9ab1cf5a980cb27aebbf80abb4fd593a240727736813625814"},
-    {"path": "docs/DATA_MODEL.md", "bytes": 830, "sha256": "9065865c832ad5542dd48e1eabd63934086bf27e197eb48a90fdbaf5c30bf959"},
-    {"path": "docs/LESSONS_AND_HANDOFF.md", "bytes": 2517, "sha256": "ba951a224b3ce024d15b1b8d97589b593c1cf0aa24101d444ccf0e49ab3f4949"},
-    {"path": "docs/LIMITATIONS.md", "bytes": 862, "sha256": "58bf75531f7ce142852764a85e5b0a019e7185892f5cd5317f8167270dfc6f0e"},
-    {"path": "docs/METHODOLOGY.md", "bytes": 1457, "sha256": "247ade978c51703cd3c40ef640114af15df25e891abbbc20578d6fae5d291a47"},
-    {"path": "docs/PRIVACY.md", "bytes": 743, "sha256": "18d0f7a646b96fc970feb695f3499f0e86b5eba9276b6f03bd656a5bc8b8b46e"},
-    {"path": "docs/RECOVERY.md", "bytes": 785, "sha256": "da9a33fe0a6c226c3aa6ab8fbbf800b3951e66f6ebbde265087d75fd9b937680"},
-    {"path": "docs/RELEASE_NOTES.md", "bytes": 1734, "sha256": "df00729119b8740b370e7b4232ef05eb9e3e0c2829bddaa2b913126123e68242"},
-    {"path": "docs/RIGHTS_AND_USE.md", "bytes": 539, "sha256": "146a8be7724085c296bb6792e59a68d752f45ef27bb43d3844781e285be25019"},
-    {"path": "docs/SECURITY.md", "bytes": 929, "sha256": "1ba6f5e26da14f5907a914e03826a703d5b4d8d33027e8eda92b27a2b030a3f0"},
-    {"path": "docs/TERMINAL_CLOSEOUT.md", "bytes": 2357, "sha256": "14c3a86988c9e7752bcc0c7d3444489aa62c259c0b0a63848bfc9be6f3235ff1"},
-    {"path": "docs/TEST_AND_EVIDENCE.md", "bytes": 1565, "sha256": "254afde015359f96ade7495ef588441194a6daa5c8d110a4e0b6c0ac83473d61"},
-    {"path": "docs/VERIFICATION_SUMMARY.md", "bytes": 1550, "sha256": "e7c80608db71ac5d76cc0beb912014377e5cebb5dd29f7fbd5cc060bf735191d"},
-    {"path": "evidence/FROZEN_SUBJECT_IDENTITY.json", "bytes": 485, "sha256": "257ec19b4cbc857ac62691b4f9de1ff684a8402b576b8115f9dbc58d331777a1"},
-    {"path": "evidence/PRODUCER_ASSURANCE_v1.0.1.md", "bytes": 1550, "sha256": "d01762832251a8a74e2a636dca590facf2610ac9e4f45bc0458375e1fe65955b"},
-    {"path": "evidence/UBUILDOS_LINKEDIN_PUBLIC_CAMPAIGN_POST_STANDARD_v1.3.0_BYTE_LOCK.md", "bytes": 28735, "sha256": "53970294ccd38b47ac637b0daffd28d281543a36a9900992c9a6af77e66cebc6"},
-    {"path": "index.html", "bytes": 3334, "sha256": "1e040f843ea0abe25485ea20e44316cccbb18c3f58409e129824e5fb62245f10"},
-    {"path": "styles.css", "bytes": 4048, "sha256": "768bce54369bc079708ffc6930da561ecfc7b53c43acd4004eb3feb37988efc5"},
-    {"path": "tests/mutation_tests.py", "bytes": 2695, "sha256": "180278a03f67eb48167cee62b28b1a28f5e77fb95e3ed9057b315552842d62f8"},
-    {"path": "tests/verify.py", "bytes": 7361, "sha256": "078701b28ee6898a291e6e59c7ff65d1cd06c2abc757768c46a2d7f64294dbac"},
-    {"path": "tests/verify_publication_projection.py", "bytes": 3159, "sha256": "40408ab9f209e354a7d3e87f7f89de057d68130bdf94397c92c5b885803f02fd"}
+    {
+      "path": ".nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "CAROUSEL.md",
+      "bytes": 841,
+      "sha256": "8fe7a6dea1184a34ee64a22abb9c4454852cdad01095368bc9912e69134c03c1"
+    },
+    {
+      "path": "CAROUSEL_ACCESSIBILITY.md",
+      "bytes": 729,
+      "sha256": "3991d796c09ef2b94192b55cf0b0d625d2baed34182777432a1f2c71ccb5986d"
+    },
+    {
+      "path": "LIFECYCLE_STATUS.md",
+      "bytes": 1550,
+      "sha256": "530437216a9504e965d44ff54924d1874e15401ec29db52459748dcc8e7306a0"
+    },
+    {
+      "path": "LINKEDIN_POST.md",
+      "bytes": 2588,
+      "sha256": "e979ea89491375c283824af0656737405eb4ebc80f5c9e57e73a4a592fc29164"
+    },
+    {
+      "path": "PUBLICATION_GATE.md",
+      "bytes": 922,
+      "sha256": "90a5187a824b355c61004bfa3308301ddae1b3a1d00ca1c60382bf015976b9f8"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4082,
+      "sha256": "0525f61f53f2b859812df81a168860dc64fa34d4958539382f495b9834c7ba08"
+    },
+    {
+      "path": "RECOVERY_FROM_v1.0.0.md",
+      "bytes": 568,
+      "sha256": "6da743028f94549f35558e03adbc78897bdf519240b9c4856f7912f0d5c932d3"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 1466,
+      "sha256": "d5451951ca2963e288d0906bcc04a274cc2b73c98bf469ab1d9dea8faea3d102"
+    },
+    {
+      "path": "app.js",
+      "bytes": 4183,
+      "sha256": "c5e943eb02c89cb71459ab5eb336a2514192f092901be268fe5b873c8b006504"
+    },
+    {
+      "path": "docs/ACCESSIBILITY.md",
+      "bytes": 712,
+      "sha256": "2bbec3b559818e9ab1cf5a980cb27aebbf80abb4fd593a240727736813625814"
+    },
+    {
+      "path": "docs/DATA_MODEL.md",
+      "bytes": 830,
+      "sha256": "9065865c832ad5542dd48e1eabd63934086bf27e197eb48a90fdbaf5c30bf959"
+    },
+    {
+      "path": "docs/LESSONS_AND_HANDOFF.md",
+      "bytes": 2517,
+      "sha256": "ba951a224b3ce024d15b1b8d97589b593c1cf0aa24101d444ccf0e49ab3f4949"
+    },
+    {
+      "path": "docs/LIMITATIONS.md",
+      "bytes": 862,
+      "sha256": "58bf75531f7ce142852764a85e5b0a019e7185892f5cd5317f8167270dfc6f0e"
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "bytes": 1457,
+      "sha256": "247ade978c51703cd3c40ef640114af15df25e891abbbc20578d6fae5d291a47"
+    },
+    {
+      "path": "docs/PRIVACY.md",
+      "bytes": 743,
+      "sha256": "18d0f7a646b96fc970feb695f3499f0e86b5eba9276b6f03bd656a5bc8b8b46e"
+    },
+    {
+      "path": "docs/RECOVERY.md",
+      "bytes": 785,
+      "sha256": "da9a33fe0a6c226c3aa6ab8fbbf800b3951e66f6ebbde265087d75fd9b937680"
+    },
+    {
+      "path": "docs/RELEASE_NOTES.md",
+      "bytes": 1734,
+      "sha256": "df00729119b8740b370e7b4232ef05eb9e3e0c2829bddaa2b913126123e68242"
+    },
+    {
+      "path": "docs/RIGHTS_AND_USE.md",
+      "bytes": 539,
+      "sha256": "146a8be7724085c296bb6792e59a68d752f45ef27bb43d3844781e285be25019"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "bytes": 929,
+      "sha256": "1ba6f5e26da14f5907a914e03826a703d5b4d8d33027e8eda92b27a2b030a3f0"
+    },
+    {
+      "path": "docs/TERMINAL_CLOSEOUT.md",
+      "bytes": 2391,
+      "sha256": "7e700bb7909ce6e4de1f1e60cf329f552597a262d8886acf76d661d6041f8756"
+    },
+    {
+      "path": "docs/TEST_AND_EVIDENCE.md",
+      "bytes": 1565,
+      "sha256": "254afde015359f96ade7495ef588441194a6daa5c8d110a4e0b6c0ac83473d61"
+    },
+    {
+      "path": "docs/VERIFICATION_SUMMARY.md",
+      "bytes": 1550,
+      "sha256": "e7c80608db71ac5d76cc0beb912014377e5cebb5dd29f7fbd5cc060bf735191d"
+    },
+    {
+      "path": "evidence/FROZEN_SUBJECT_IDENTITY.json",
+      "bytes": 485,
+      "sha256": "257ec19b4cbc857ac62691b4f9de1ff684a8402b576b8115f9dbc58d331777a1"
+    },
+    {
+      "path": "evidence/PRODUCER_ASSURANCE_v1.0.1.md",
+      "bytes": 1550,
+      "sha256": "d01762832251a8a74e2a636dca590facf2610ac9e4f45bc0458375e1fe65955b"
+    },
+    {
+      "path": "evidence/UBUILDOS_LINKEDIN_PUBLIC_CAMPAIGN_POST_STANDARD_v1.3.0_BYTE_LOCK.md",
+      "bytes": 28735,
+      "sha256": "53970294ccd38b47ac637b0daffd28d281543a36a9900992c9a6af77e66cebc6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3334,
+      "sha256": "1e040f843ea0abe25485ea20e44316cccbb18c3f58409e129824e5fb62245f10"
+    },
+    {
+      "path": "styles.css",
+      "bytes": 4048,
+      "sha256": "768bce54369bc079708ffc6930da561ecfc7b53c43acd4004eb3feb37988efc5"
+    },
+    {
+      "path": "tests/mutation_tests.py",
+      "bytes": 2695,
+      "sha256": "180278a03f67eb48167cee62b28b1a28f5e77fb95e3ed9057b315552842d62f8"
+    },
+    {
+      "path": "tests/verify.py",
+      "bytes": 7361,
+      "sha256": "078701b28ee6898a291e6e59c7ff65d1cd06c2abc757768c46a2d7f64294dbac"
+    },
+    {
+      "path": "tests/verify_publication_projection.py",
+      "bytes": 3159,
+      "sha256": "40408ab9f209e354a7d3e87f7f89de057d68130bdf94397c92c5b885803f02fd"
+    }
   ]
 }
