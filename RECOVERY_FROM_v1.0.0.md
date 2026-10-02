@@ -1,0 +1,5 @@
+# Day 10 exact external-effect authority request
+
+Authorize only if you want the remaining live Day-10 release actions executed now:
+
+> I authorize the exact Day-10 GitHub/publication external effects for the frozen v1.0.1 subject: create/update the bound public repository `BRAIZ-Works/ubuildos-completion-receipt-011` from the prepared public repository projection, commit/push it, enable or confirm GitHub Pages, deploy and read back the exact live commit/site across desktop/mobile/tablet, then perform the final LinkedIn gate and publish the exact qualified Day-10 LinkedIn post/carousel to the bound live/repository URLs and capture/read back the live LinkedIn URL. Use transactional preflight, idempotency checks, readback receipts, ambiguity controls, and rollback/compensation where applicable. Auto-continue through final audit, lessons/handoff, restore checkpoint, and Day-10 terminal closeout unless a new legitimate owner, platform, credentials, safety, or hard-material blocker appears.
