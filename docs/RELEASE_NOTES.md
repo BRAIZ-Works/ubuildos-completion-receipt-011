@@ -1,7 +1,10 @@
 # Release Notes
 
-## Public distribution projection v1.0.2
-**Change class:** PATCH — documentation/publication-surface repair.
+## Public distribution projection v1.0.3
+**Change class:** PATCH — visual-brand continuity + documentation/publication-surface repair.
+
+- Aligns the live Day-10 surface to the established Day-09 UBuildOS/BRAIZ public-proof visual system: blue accent, proof chips, stronger hierarchy, bordered panels, operating-view framing, and consistent table treatment.
+- Preserves Day-10 product behavior and frozen v1.0.1 product bytes unchanged.
 
 - Expands README into a complete public release surface.
 - Rebuilds START_HERE as the release navigation entry point.
