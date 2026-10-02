@@ -19,8 +19,8 @@ The frozen product subject remains unchanged.
 
 ## Public distribution projection
 
-Projection version: **v1.0.2**  
-Change class: **PATCH — documentation/publication-surface repair**  
+Projection version: **v1.0.3**  
+Change class: **PATCH — visual-brand continuity + documentation/publication-surface repair**  
 Reason: bring the public repository documentation surface up to the Day-10 BRAIZ/UBuildOS campaign standard without modifying the frozen product subject.
 
 ## Separate external-effect/readback states
