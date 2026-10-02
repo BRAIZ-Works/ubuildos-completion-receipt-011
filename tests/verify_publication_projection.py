@@ -1,5 +1,5 @@
 from pathlib import Path
-import hashlib, json, re, sys
+import json, re, sys
 
 root=Path(__file__).resolve().parents[1]
 errors=[]
@@ -14,13 +14,15 @@ def text(rel):
 expected="6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9"
 repo_url="https://github.com/BRAIZ-Works/ubuildos-completion-receipt-011"
 live_url="https://braiz-works.github.io/ubuildos-completion-receipt-011/"
+linkedin_url="https://lnkd.in/p/et2P9BM7"
 
 required_docs=[
     "README.md","START_HERE.md","LIFECYCLE_STATUS.md","PUBLICATION_GATE.md",
     "docs/METHODOLOGY.md","docs/DATA_MODEL.md","docs/TEST_AND_EVIDENCE.md",
     "docs/LIMITATIONS.md","docs/PRIVACY.md","docs/SECURITY.md",
     "docs/ACCESSIBILITY.md","docs/RECOVERY.md","docs/RIGHTS_AND_USE.md",
-    "docs/RELEASE_NOTES.md","docs/VERIFICATION_SUMMARY.md"
+    "docs/RELEASE_NOTES.md","docs/VERIFICATION_SUMMARY.md",
+    "docs/TERMINAL_CLOSEOUT.md","docs/LESSONS_AND_HANDOFF.md"
 ]
 for rel in required_docs:
     text(rel)
@@ -30,6 +32,7 @@ life=text("LIFECYCLE_STATUS.md")
 post=text("LINKEDIN_POST.md")
 release=text("docs/RELEASE_NOTES.md")
 verify=text("docs/VERIFICATION_SUMMARY.md")
+closeout=text("docs/TERMINAL_CLOSEOUT.md")
 
 try:
     ident=json.loads((root/"evidence/FROZEN_SUBJECT_IDENTITY.json").read_text())
@@ -44,7 +47,7 @@ if ident.get("fresh_iqa")!="PASS":
 if ident.get("owner_accepted") is not True or ident.get("frozen") is not True:
     errors.append("accept/freeze missing")
 
-for term in ["v1.0.1","Fresh Independent IQA PASS",expected,repo_url,live_url]:
+for term in ["v1.0.1","Fresh Independent IQA PASS",expected,repo_url,live_url,"v1.0.4"]:
     if term not in readme:
         errors.append("README missing:"+term)
 
@@ -52,9 +55,12 @@ for stale in ["PRE-IQA candidate","not independently reviewed","publication/depl
     if stale in readme:
         errors.append("stale README language:"+stale)
 
-for term in ["v1.0.2","documentation/publication-surface repair","LinkedIn publication"]:
-    if term not in life+release+verify:
-        errors.append("projection status missing:"+term)
+for term in ["v1.0.4","terminal-closeout","VERIFIED_TERMINAL_DONE / CLOSED"]:
+    if term not in life+release+verify+closeout:
+        errors.append("terminal projection status missing:"+term)
+
+if linkedin_url not in life+closeout:
+    errors.append("linkedin live URL missing from closeout")
 
 required_post=[
     "Inspect the product. Challenge the workflow.",
