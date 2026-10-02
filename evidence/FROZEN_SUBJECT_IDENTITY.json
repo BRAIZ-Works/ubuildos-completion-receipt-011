@@ -1,0 +1,11 @@
+{
+  "subject": "UBUILDOS_DAY10_CONTENT_APPROVAL_QUEUE_v1.0.1.zip",
+  "bytes": 32587,
+  "sha256": "6790b56bfb1f1d5a7165e9fb49160a3ef033b69cbaa52670cc6f1a3426986bb9",
+  "fresh_iqa_handoff_sha256": "0e7f28a46c7f883e937913c03960b5bdd1c9f6826d7c7ea2fd91c7e2f0369876",
+  "fresh_iqa": "PASS",
+  "fresh_iqa_repairs": 0,
+  "owner_accepted": true,
+  "frozen": true,
+  "public_projection_note": "The frozen reviewed ZIP remains unchanged; this tree is the post-review distribution projection."
+}
