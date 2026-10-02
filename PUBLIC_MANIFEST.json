@@ -127,13 +127,13 @@
     },
     {
       "path": "index.html",
-      "bytes": 2215,
-      "sha256": "cf789e7b4a93f6c706a51216557818e3795394271fd0ff828f6eacead327b77d"
+      "bytes": 3334,
+      "sha256": "1e040f843ea0abe25485ea20e44316cccbb18c3f58409e129824e5fb62245f10"
     },
     {
       "path": "styles.css",
-      "bytes": 2280,
-      "sha256": "fb18ac857de6f8c3b9cc2a006d31c9c5349daf12eaa6c4c248a5308c91aae6b2"
+      "bytes": 4048,
+      "sha256": "768bce54369bc079708ffc6930da561ecfc7b53c43acd4004eb3feb37988efc5"
     },
     {
       "path": "tests/mutation_tests.py",
